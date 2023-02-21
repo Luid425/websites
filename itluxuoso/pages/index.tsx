@@ -55,7 +55,7 @@ export default function Home() {
           href="mailto:itluxuoso@gmail.com"
           className="flex flex-nowrap justify-center items-center"
         >
-          <div className="flex flex-nowrap justify-center items-center bg-slate-800 px-2 py-1.5 rounded-sm">
+          <div className="flex flex-nowrap justify-center items-center bg-slate-800 px-9 py-1.5 rounded-sm">
             <p className=" text-white ">Contactez-nous</p>
           </div>
         </a>
