@@ -51,8 +51,11 @@ export default function Home() {
           Vous souhaitez en savoir plus ?
         </p>
 
-        <a href="mailto:itluxuoso@gmail.com">
-          <div className="flex  flex-nowrap justify-center items-center bg-gradient-to-r bg-slate-800 px-1 py-1.5 rounded-sm">
+        <a
+          href="mailto:itluxuoso@gmail.com"
+          className="flex flex-nowrap justify-center items-center"
+        >
+          <div className="flex w-10 flex-nowrap justify-center items-center bg-slate-800 px-2 py-1.5 rounded-sm">
             <p className=" text-white ">Contactez-nous</p>
           </div>
         </a>
