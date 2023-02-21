@@ -5,6 +5,10 @@ import instagramlogo from "../public/instagram.png";
 import mail from "../public/mail.png";
 import styles from "@/styles/Home.module.css";
 
+
+
+import { Loading, Grid } from "@nextui-org/react";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -20,8 +24,16 @@ export default function Home() {
   // };
   return (
     <div className="flex flex-col justify-center items-center w-screen h-screen bg-tropicalflou bg-center bg-no-repeat text-base md:text-lg lg:text-xl">
-      {}
-      <p className="text-white ">En cours de construction...</p>
+      <div className="flex relative flex-row justify-center flex-nowrap">
+        <p className="text-white ">En cours de construction</p>
+
+        <Loading
+          type="points"
+          className="text-white absolute bottom-1 ml-4 mt-3"
+          color="currentColor"
+          size="lg"
+        />
+      </div>
       <a
         href="https://www.instagram.com/itluxuoso/"
         className="flex relative items-center justify-center rounded-sm w-3/4 max-w-[335px] h-44 bg-tropical bg-cover bg-center bg-no-repeat my-16 md:h-72 md:max-w-[600px] lg:h-96 lg:w-[900px] "
