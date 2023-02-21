@@ -47,14 +47,14 @@ export default function Home() {
       </a>
 
       <div className="flex flex-col">
-        <p className="text-white mb-4 lg:mb-5">
+        <p className="text-white text-lg mb-4 lg:mb-5">
           Vous souhaitez en savoir plus ?
         </p>
-        <a
-          href="mailto:itluxuoso@gmail.com"
-          className=" flex  flex-nowrap justify-center items-center bg-gradient-to-r bg-slate-800 px-1 py-1.5 rounded-sm"
-        >
-          <p className=" text-green-100 ">Contactez-nous</p>
+
+        <a href="mailto:itluxuoso@gmail.com">
+          <div className="flex  flex-nowrap justify-center items-center bg-gradient-to-r bg-slate-800 px-1 py-1.5 rounded-sm">
+            <p className=" text-white ">Contactez-nous</p>
+          </div>
         </a>
       </div>
     </div>
