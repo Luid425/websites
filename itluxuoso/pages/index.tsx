@@ -28,8 +28,8 @@ export default function Home() {
         <p className="text-white ">En cours de construction</p>
 
         <Loading
-          type="points"
-          className="text-white absolute bottom-1 ml-4 mt-3"
+          type="points-opacity"
+          className="e absolute bottom-1 ml-4 mt-3 text-green-100"
           color="currentColor"
           size="lg"
         />
@@ -52,12 +52,12 @@ export default function Home() {
         </p>
         <a
           href="mailto:itluxuoso@gmail.com"
-          className="flex flex-row flex-nowrap items-center bg-white px-10 py-2 rounded-sm"
+          className="flex flex-row flex-nowrap justify-center items-center bg-green-800 px-10 py-2 rounded-sm"
         >
-          <p className=" text-black t">Contactez-nous</p>
-          <Image src={mail} alt="mail icone" className="w-5 ml-4" />
+          <p className=" text-white">Contactez-nous</p>
         </a>
       </div>
     </div>
   );
 }
+  
