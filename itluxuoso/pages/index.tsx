@@ -8,9 +8,20 @@ import styles from "@/styles/Home.module.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  // let addPoint = function (last: string) {
+  //   last += ".";
+  // };
+
+  // let pointsSuspention = function (value: string) {
+  //   while(true) {
+  //   let timer = setTimeout("addPoint(value)", 1000);
+  //   }
+
+  // };
   return (
-    <div className="flex flex-col justify-center items-center w-screen h-screen bg-tropicalflou bg-cover bg-center bg-no-repeat text-base md:text-lg lg:text-xl">
-      <p className="text-white">En cours de construction...</p>
+    <div className="flex flex-col justify-center items-center w-screen h-screen bg-tropicalflou bg-center bg-no-repeat text-base md:text-lg lg:text-xl">
+      {}
+      <p className="text-white ">En cours de construction...</p>
       <a
         href="https://www.instagram.com/itluxuoso/"
         className="flex relative items-center justify-center rounded-sm w-3/4 max-w-[335px] h-44 bg-tropical bg-cover bg-center bg-no-repeat my-16 md:h-72 md:max-w-[600px] lg:h-96 lg:w-[900px] "
