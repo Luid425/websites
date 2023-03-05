@@ -36,13 +36,13 @@ export default function Home() {
       </div>
       <a
         href="https://www.instagram.com/itluxuoso/"
-        className="flex relative items-center justify-center rounded-sm w-3/4 max-w-[335px] h-44 bg-tropical bg-cover bg-center bg-no-repeat my-16 md:h-72 md:max-w-[600px] lg:h-96 lg:w-[900px] "
+        className="flex relative items-center justify-center rounded-sm w-3/4 max-w-[335px] h-44 bg-tropical bg-cover bg-center bg-no-repeat my-16 md:h-72 md:max-w-[600px] lg:h-96 lg:w-[900px]"
       >
         <Image src={itluxuosologo} alt="IT Luxuoso logo" className="w-3/4" />
         <Image
           src={instagramlogo}
           alt="Instagram logo"
-          className="w-3/4 absolute bottom-5 w-7 md:bottom-7 md:w-8"
+          className="w-3/4 absolute bottom-5 w-5 md:bottom-7 md:w-8"
         />
       </a>
 
@@ -52,11 +52,11 @@ export default function Home() {
         </p>
 
         <a
-          href="mailto:itluxuoso@gmail.com"
+          href="https://www.instagram.com/itluxuoso/"
           className="flex flex-nowrap justify-center items-center"
         >
-          <div className="flex flex-nowrap justify-center items-center bg-slate-800 px-9 py-1.5 rounded-sm">
-            <p className=" text-white ">Contactez-nous</p>
+          <div className="flex flex-nowrap justify-center items-center bg-slate-800 px-10 py-1.5 rounded-sm">
+            <p className=" text-white pb-1">Suivez-nous</p>
           </div>
         </a>
       </div>
